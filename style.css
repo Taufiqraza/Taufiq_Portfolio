@@ -543,74 +543,6 @@ padding: 2px 0px;
   padding-left:5px;
 }
 
-@media only screen and (max-width: 320px){
-  .mytext{
-    padding:0px;
-    margin: 0px;
-  }
-  .name,.dis{
-    padding: 0px;
-  }
-  .mytext h1{
-    font-size: 16px;
-  }
-  .mypic{
-    width: 63%;
-    margin: 0px;
-    padding: 0px;
-  }
-  .mypic img{
-    height: 150px;
-    width:150px;
-  }
-  .mytext p{
-    text-align: center;
-    font-size: 12px;
-  }
-  .content-1{
-    display:none;
-  }
-  .content{
-    padding:0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .dis,.name{
-    text-align: center;
-  }
-  .grid-item1{
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    justify-items:center;
-  }
-  .grid-item1 h3{
-    font-size:12px;
-  }
-
-  .menu_2{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 720px) {
@@ -702,7 +634,7 @@ padding: 2px 0px;
     padding: 8px 5px;
   }
   .section{
-    font-size: 16px;
+    font-size: 14px;
   }
   .dev_des{
     padding-left:5px;
