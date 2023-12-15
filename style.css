@@ -634,11 +634,12 @@ padding: 2px 0px;
     padding: 8px 5px;
   }
   .section{
-    font-size: 14px;
+    font-size: 13px;
   }
   .dev_des{
     padding-left:5px;
     padding-right: 5px;
+    font-size: 15px;
   }
 
   .dev_edu{
@@ -666,6 +667,7 @@ padding: 2px 0px;
   }
   .Ex_detail{
     padding:10px 20px;
+    font-size:15px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
