@@ -727,13 +727,15 @@ h1 {
     display: block;
   }
 
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
 }
 
-.project-cards {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
-}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -761,6 +763,13 @@ h1 {
     padding-left:20px;
     padding-right: 20px;
   }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
 }
 
 @media screen  and (min-width: 1000px) and (max-width: 1500px){
