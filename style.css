@@ -545,7 +545,7 @@ padding: 2px 0px;
 
 .container {
   max-width: 800px;
-  margin-right: 50pxz;
+  padding-right: 120px;
   background-color: #fff;
   border-radius: 10px;
 }
@@ -732,6 +732,7 @@ h1 {
 
   .container{
     width:100%;
+    padding:0;
   }
   .project-cards {
     display: grid;
@@ -772,6 +773,7 @@ h1 {
 
   .container{
     width:100%;
+    padding:0px;
   }
   .project-cards {
     display: grid;
