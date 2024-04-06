@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Playfair+Display&display=swap" rel="stylesheet">
 
+</head>
+<body>
+  <div class="bars">
+    <a href="javascript:void(0);" onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 24 24">
+      <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
+      </svg></a>
+  </div>
+  <div class="menu_2  shadow-drop-2-bottom" id="mob_menu">
+    <ul class="menu_list">
+      <li class="list_1 "><a href="index.html">HOME</a></li>
+      <li class="list_1"><a href="about.html">ABOUT ME</a></li>
+      <li class="list_1"><a href="project.html">PROJECTS</a></li>
+    </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="menu_1 shadow-drop-2-bottom">
+    <ul class="menu_list">
+      <li class="list_1"><a href="index.html">HOME</a></li>
+      <li class="list_1"><a href="about.html">ABOUT ME</a></li>
+      <li class="list_1"><a href="project.html">PROJECTS</a></li>
+    </ul>
+  </div>
+  <div class="content-1">
+    <div class="items">
+      <div class="logo">
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+          <lord-icon
+              src="https://cdn.lordicon.com/wluyqhxh.json"
+              trigger="hover"
+              colors="primary:#121331"
+              style="width:125px;height:125px">
+          </lord-icon>
+      </div>
+      <div class="menu shadow-drop-2-bottom">
+        <div class="list"><a href="index.html">HOME</a></div>
+        <div class="list"><a href="about.html">ABOUT ME</a></div>
+        <div class="list"><a href="project.html">PROJECTS</a></div>
+      </div>
+      <div class="created">
+        <p>@2023 India <br> Created By Shekh Taufiq Raza</p>
+      </div>
+    </div>
+  </div>
+  <div class="about_me">
+    <div class="container">
+      <h1>My Projects</h1>
+      <div class="project-cards">
+        <div class="project-card">
+          <img class="project-image" src="project_1.png" alt="Project 1" hieght="200px" width="380px">
+          <div class="project-details">
+            <h2 class="project-title">The Techno India</h2>
+            <p class="project-description">TTI is a Indian Digital Marketing and development Agency focused on providing Small to Medium Businesses with first class websites and marketing solutions.</p>
+            <a class="project-link" href="https://taufiqraza.github.io/TTI/index.html">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="project2.jpg" alt="Project 2">
+          <div class="project-details">
+            <h2 class="project-title">Project 2</h2>
+            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit sit amet ligula consequat fringilla.</p>
+            <a class="project-link" href="project2.html">View Project</a>
+          </div>
+        </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mob_menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</body>
+</html>
