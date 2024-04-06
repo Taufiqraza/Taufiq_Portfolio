@@ -739,11 +739,12 @@ h1 {
     gap: 20px;
   }
 
+  .card_heading{
+    text-align:center;
+  }
 }
 
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen  and (min-width: 800px) and (max-width: 1150px){
   *{
     padding: 0;
@@ -777,7 +778,9 @@ h1 {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
-  
+  .card_heading{
+    text-align:center;
+  }
 }
 
 @media screen  and (min-width: 1000px) and (max-width: 1500px){
